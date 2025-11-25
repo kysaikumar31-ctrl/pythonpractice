@@ -16,7 +16,7 @@ for i in range(2, 10):
 fno = 0
 sno = 1
 while sno < 500:
-    print(sno)
     fib = fno + sno
     fno = sno
     sno = fib
+    print(fib)
