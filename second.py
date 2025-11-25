@@ -5,3 +5,10 @@ for i in range(2, 10):
             break
     else:
         print(i, "is prime")
+
+#2
+for i in range(2, 10):
+    if i % 2 == 0:
+        print(i, "is even number")
+    else:
+        print(i, "is odd number")
